@@ -1,5 +1,4 @@
-ARG REGISTRY_NAME
-FROM shubhasisrepo/baseimages/node:15-alpine
+FROM shubhasisrepo.azurecr.io/baseimages/node:15-alpine
 
 COPY . /src
 RUN cd /src && npm install
