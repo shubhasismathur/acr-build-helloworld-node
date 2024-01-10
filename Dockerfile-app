@@ -1,4 +1,4 @@
-FROM shubhasisrepo.azurecr.io/baseimages/node:15-alpine
+FROM shubhasis/webapp:900
 
 COPY . /src
 RUN cd /src && npm install
